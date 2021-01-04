@@ -1,5 +1,5 @@
 # Changes
 
-## Updated:
+## Removed:
 
-- Socket URL to ENV
+- .env file from git commits
