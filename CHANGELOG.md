@@ -1,5 +1,5 @@
 # Changes
 
-## Added:
+## Updated:
 
-- Chat interface
+- Socket URL to ENV

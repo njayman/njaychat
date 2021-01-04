@@ -3,8 +3,8 @@ import { Paper, Grid, TextField, Button } from "@material-ui/core";
 import { SendRounded } from "@material-ui/icons";
 import io from "socket.io-client";
 import "./App.css";
-
-const socket = io.connect("http://localhost:5001");
+const { REACT_APP_NOT_SOCKET_CONNECTION_URL } = process.env
+const socket = io.connect(REACT_APP_NOT_SOCKET_CONNECTION_URL);
 
 function App() {
   const [name] = useState("najish");
